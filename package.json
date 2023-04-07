@@ -1,0 +1,17 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "# Setup:     1. make sure you installed package of node.js     2. install puppeteer library (you may need to find a tut video on youtube) or the video below:         https://www.youtube.com/watch?v=JA1-eJjrvxw",
+  "main": "successful.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^19.8.0"
+  }
+}

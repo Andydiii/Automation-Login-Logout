@@ -1,0 +1,39 @@
+# About Use Of Automation Testing using Node.js Puppeteer 
+# Developer: Cong(Andy) Liu
+
+# Setup:
+    1. make sure you installed package of node.js
+    2. install puppeteer library (you may need to find a tut video on youtube) or the video below:
+        https://www.youtube.com/watch?v=JA1-eJjrvxw
+
+# account information
+    if you wanna change more/less accounts, just go to login.txt to add/decrease account 
+        ** but there is format restriction illustrated below
+    
+    1. format: 
+    pls follow the format:
+        URL,username,password
+
+    2. example in the format:
+        https://sit.prov.security.gov.on.ca/identity/,AndyLiu,Lc20020813
+
+    3. Remark:
+        Note there is no any white space between comma/word
+        wrong format will cause program failed to read information
+        ** always leave two new line character in the last two lines
+
+# How to Run the Program:
+for now the final version of automation testing program is called version3.js
+So Basically just Run the command in the terminal as following:
+
+    node version3.js
+
+if the program name is final.js, then command shoule be like:
+
+    node final.js
+
+# output:
+after running the program, it will show:
+    1. if the account has been successfully/failed login
+    2. login time cost 
+    3. logout time cost
